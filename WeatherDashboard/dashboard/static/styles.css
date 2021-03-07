@@ -1,0 +1,26 @@
+@media only screen and (min-width: 767px){
+#sideform
+{
+min-height:95vh;
+}
+}
+
+#sideform{
+background-color: #ca70ca;
+}
+.btn,.city-input{
+border-radius:20px;
+}
+#sideform p{
+font-size:1.5rem;
+}
+.card{
+    background-color: transparent;
+}
+#dashboard-card
+{
+   background-image: url(backgr.jpg);
+   background-size: cover;
+   background-blend-mode:hard-light;
+   background-repeat: no-repeat;
+}
