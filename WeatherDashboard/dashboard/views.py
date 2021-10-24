@@ -3,7 +3,7 @@ from django.http import HttpResponse
 from .forms import CityForm
 
 import requests
-# Create your views here.
+
 
 def home(request):
     form = CityForm()
@@ -40,5 +40,4 @@ def home(request):
     template_name='home.html'
     context={'form':form,'weather_data':weather_data}
     return render(request,template_name,context=context)
-
 
